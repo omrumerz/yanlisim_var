@@ -1,25 +1,31 @@
-# 🎯 Yanlışım Var - Akıllı Sınav Asistanı
+# 🚀 Yanlışım Var - Akıllı Hata Analizi ve Sosyal Rekabet Platformu
 
-**Yanlışım Var**, öğrencilerin sınav hazırlık sürecinde yaptıkları hataları analiz etmelerini, bulutta yedeklemelerini ve arkadaşlarıyla rekabet etmelerini sağlayan **Flutter & Firebase** tabanlı bir mobil uygulamadır.
+Bu proje, kullanıcıların hatalarını analiz etmelerine yardımcı olan ve bu süreci sosyal bir rekabet ortamına dönüştüren, uçtan uca geliştirilmiş bir mobil uygulamadır. 
 
+## ✨ Özellikler
+- **Gerçek Zamanlı Veri Yönetimi:** Firebase Firestore ile anlık veri senkronizasyonu.
+- **Sosyal Etkileşim:** Arkadaş ekleme sistemi ve Liderlik Tablosu (Leaderboard).
+- **Gelişmiş Analiz:** Hata takibi ve sqflite ile yerel veritabanı desteği.
+- **Cross-Platform:** Hem Android hem de iOS mimarisine tam uyumluluk.
+- **Profesyonel Arayüz:** Özel tasarlanmış Splash Screen (Açılış ekranı) ve modern UI bileşenleri.
 
+## 🛠 Kullanılan Teknolojiler
+- **Frontend:** Flutter & Dart
+- **Backend:** Firebase (Auth, Firestore)
+- **Veritabanı:** sqflite (Local) & Firestore (Cloud)
+- **Mimari:** Provider / State Management
+- **Versiyon Kontrol:** Git & GitHub
 
-## ✨ Öne Çıkan Özellikler
+## 📱 Ekran Görüntüleri
+| Açılış Ekranı | Ana Ekran | Liderlik Tablosu |
+| :---: | :---: | :---: |
+| ![Splash Screen](assets/images/splash.png) | (Eklenecek) | (Eklenecek) |
 
-* **☁️ Bulut Yedekleme:** Firebase Firestore entegrasyonu ile verileriniz her zaman güvende.
-* **🤝 Sosyal Etkileşim:** Arkadaş ekleme, istek onaylama ve karşılıklı rekabet sistemi.
-* **🏆 Liderlik Tablosu:** Sadece arkadaşlarınla gerçek zamanlı puan yarışı.
-* **📊 Akıllı Analiz:** Hata kategorilerine göre (İşlem Hatası, Konu Eksikliği vb.) kişiselleştirilmiş tavsiyeler.
-* **🌟 Premium Model:** Fotoğraf yükleme desteği ve gelişmiş istatistikler.
+## ⚙️ Kurulum ve Yapılandırma
+1. Bu depoyu klonlayın: `git clone https://github.com/kullanici-adi/yanlisim_var.git`
+2. Bağımlılıkları yükleyin: `flutter pub get`
+3. Firebase yapılandırmasını tamamlayın (`google-services.json` ve `GoogleService-Info.plist`).
+4. Uygulamayı çalıştırın: `flutter run`
 
-## 🛠️ Teknik Altyapı
-
-* **Frontend:** Flutter & Dart
-* **Backend:** Cloud Firestore & Firebase Auth
-* **Versiyon Kontrol:** Git & GitHub (BTK Akademi standartlarında)
-
-## 🚀 Kurulum ve Çalıştırma
-
-1. `flutter pub get` ile paketleri yükleyin.
-2. Windows ayarlarından **Geliştirici Modu**'nu açın.
-3. `flutter run -d chrome` komutuyla uygulamayı başlatın.
+---
+*Bu proje Şubat 2026 itibarıyla geliştirilmiştir.*
